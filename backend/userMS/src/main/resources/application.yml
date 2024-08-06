@@ -15,11 +15,6 @@ spring:
       password: Abhishek@123
       name: Abhishek
 
-#  data:
-#    mongodb:
-#      uri: mongodb+srv://abhiTech:Umeshsonu29@abhitechchatboat.grlg4pf.mongodb.net/?retryWrites=true&w=majority&appName=AbhiTechChatBoat
-#      database: "e-movies"
-
 
 eureka:
   client:
