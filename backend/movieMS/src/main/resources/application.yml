@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: movie-service
+  datasource:
+    username: "root"
+    password: "Abhishek@123"
+    url: "jdbc:mysql://localhost:3306/capstone?createDatabaseIfNotExist=true"
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+      
+  
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    enabled: true
+
+server:
+  port: 8081
